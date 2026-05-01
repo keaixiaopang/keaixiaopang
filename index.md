@@ -78,7 +78,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 <div class="wrap">
   <div class="intro">
     <!-- 个人配图 自行替换文件名 -->
-    <img class="intro-img" src="kexiaopang.png" alt="个人配图">
+    <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
     <li>生活中是一位入职双非高校的青椒，定居三线城市期待甜甜的恋爱。</li>
     <li>网络中是多平台分享读博科研干货、职场奋斗心得和游戏娱乐内容的自媒体新兵蛋子。</li>
     <li>欢迎大家关注交流，但去莫复问，白云无尽时。</li>
@@ -106,39 +106,39 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>Steam 鉴赏家</h3>
-      <div class="fans" style="color:#1b2838">若干关注者</div>
+      <div class="fans" style="color:#1b2838">100+</div>
       <ul class="card-desc">
         <li>游戏测评推荐</li>
         <li>独立游戏品鉴</li>
         <li>游玩心得分享</li>
       </ul>
-      <a class="btn" href="你的Steam鉴赏家链接" target="_blank" style="background:#1b2838">进入主页</a>
+      <a class="btn" href="https://steamcommunity.com/groups/keaixiaopang/curation" target="_blank" style="background:#1b2838">进入主页</a>
     </div>
 
     <!-- 今日头条：已停更 -->
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>今日头条</h3>
-      <div class="fans" style="color:#ff6700">0 人</div>
+      <div class="fans" style="color:#ff6700">4000+ 人</div>
       <ul class="card-desc">
         <li>科技领域解读</li>
         <li>学术干货整理</li>
         <li>日常成长记录</li>
       </ul>
-      <a class="btn" href="https://www.toutiao.com" target="_blank" style="background:#ff6700">进入主页</a>
+      <a class="btn" href="[https://www.toutiao.com" target="_blank](https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?source=list&log_from=3bbae3561be52_1777613552810)" style="background:#ff6700">进入主页</a>
     </div>
 
     <!-- 小红书：已停更 -->
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>小红书</h3>
-      <div class="fans" style="color:#ff2442">0 人</div>
+      <div class="fans" style="color:#ff2442">100+ 人</div>
       <ul class="card-desc">
-        <li>学习日常打卡</li>
+        <li>搞笑梗图分享</li>
         <li>科研生活碎片</li>
-        <li>好物与经验分享</li>
+        <li>学习日常打卡</li>
       </ul>
-      <a class="btn" href="https://www.xiaohongshu.com" target="_blank" style="background:#ff2442">进入主页</a>
+      <a class="btn" href="https://www.xiaohongshu.com/user/profile/63fed6c5000000002901209d" target="_blank" style="background:#ff2442">进入主页</a>
     </div>
   </div>
 </div>
