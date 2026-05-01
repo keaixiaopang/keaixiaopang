@@ -98,9 +98,9 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       <h3>知乎</h3>
       <div class="fans" style="color:#0f83fd">4800+ 人</div>
       <ul class="card-desc">
-        <li>无人系统研究</li>
-        <li>集群协同算法</li>
-        <li>学习经验分享</li>
+        <li>科研工作共勉</li>
+        <li>读研读博建议</li>
+        <li>日常生活分享</li>
       </ul>
       <a class="btn" href="https://www.zhihu.com/people/ke-ai-xiao-pang-42" target="_blank" style="background:#0f83fd">进入主页</a>
     </div>
@@ -111,8 +111,8 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       <h3>Steam 鉴赏家</h3>
       <div class="fans" style="color:#1b2838">160+</div>
       <ul class="card-desc">
-        <li>游戏测评推荐</li>
-        <li>独立游戏品鉴</li>
+        <li>游戏测评评鉴</li>
+        <li>骨折游戏推荐</li>
         <li>游玩心得分享</li>
       </ul>
       <a class="btn" href="https://steamcommunity.com/groups/keaixiaopang/curation" target="_blank" style="background:#1b2838">进入主页</a>
@@ -124,8 +124,8 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       <h3>今日头条</h3>
       <div class="fans" style="color:#ff6700">4200+ 人</div>
       <ul class="card-desc">
-        <li>科技领域解读</li>
-        <li>学术干货整理</li>
+        <li>青椒生活分享</li>
+        <li>思考经验整理</li>
         <li>日常成长记录</li>
       </ul>
       <a class="btn" href="https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?" style="background:#ff6700">进入主页</a>
