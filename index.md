@@ -82,8 +82,8 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <h2 class="platform-title">你好，我是可爱小胖</h2>
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
-    <li>生活中是一位入职双非高校的青椒，瑞幸咖啡常客，定居三线城市的甜甜恋爱期待者。</li>
-    <li>网络中是多平台分享读博科研干货、职场奋斗心得和游戏娱乐内容的自媒体新兵蛋子。</li>
+    <li>生活中是一位入职双非高校的青椒，瑞幸咖啡常客，甜甜恋爱期待者。</li>
+    <li>网络中是多平台分享读博科研干货和游戏娱乐评测的自媒体新兵蛋子。</li>
     <li>欢迎大家关注交流，但去莫复问，白云无尽时，一起加油。</li>
     
   </div>
