@@ -18,6 +18,15 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
   display: block;
 }
 
+/* 平台板块标题 */
+.platform-title {
+  text-align: center;
+  font-size: 24px;
+  color: #222;
+  margin: 20px 0 30px;
+  font-weight: 600;
+}
+
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;}
 .card{background:#fff;border-radius:18px;padding:30px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.05);transition: all 0.3s;}
 .card h3{margin-bottom:8px;font-size:20px;color:#222;}
@@ -66,10 +75,13 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 <div class="wrap">
   <div class="intro">
     <h2>👋 关于我</h2>
-    <p>专注无人系统、智能集群与几何优化研究，多平台分享技术干货与日常思考，欢迎各平台关注交流。</p>
+    <p>专注无人系统、智能集群与几何优化研究，多平台分享技术干货、科研心得与生活内容，欢迎大家在各平台关注交流。</p>
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="avatar.jpg" alt="个人配图">
   </div>
+
+  <!-- 新增板块标题 -->
+  <h2 class="platform-title">各平台运营情况及关注者数量</h2>
 
   <div class="grid">
     <!-- 知乎：持续更新 -->
@@ -85,7 +97,20 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       <a class="btn" href="https://www.zhihu.com/people/ke-ai-xiao-pang-42" target="_blank" style="background:#0f83fd">进入主页</a>
     </div>
 
-    <!-- 今日头条：示例已停更 -->
+    <!-- Steam鉴赏家：持续更新 专属深色配色 -->
+    <div class="card">
+      <span class="status-tag update-yes">持续更新</span>
+      <h3>Steam 鉴赏家</h3>
+      <div class="fans" style="color:#1b2838">若干关注者</div>
+      <ul class="card-desc">
+        <li>游戏测评推荐</li>
+        <li>独立游戏品鉴</li>
+        <li>游玩心得分享</li>
+      </ul>
+      <a class="btn" href="你的Steam鉴赏家链接" target="_blank" style="background:#1b2838">进入主页</a>
+    </div>
+
+    <!-- 今日头条：已停更 -->
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>今日头条</h3>
@@ -98,7 +123,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       <a class="btn" href="https://www.toutiao.com" target="_blank" style="background:#ff6700">进入主页</a>
     </div>
 
-    <!-- 小红书：示例已停更 -->
+    <!-- 小红书：已停更 -->
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>小红书</h3>
