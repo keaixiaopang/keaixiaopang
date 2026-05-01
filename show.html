@@ -1,0 +1,14 @@
+<div style="margin: 20px 0; font-size: 16px;">
+  知乎粉丝：<span id="zhihu-fans" style="color:#0f83fd; font-weight:bold;">加载中...</span>
+</div>
+
+<script>
+fetch('/zhihu-fans.json')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('zhihu-fans').innerText = data.fans;
+  })
+  .catch(() => {
+    document.getElementById('zhihu-fans').innerText = "1";
+  });
+</script>
