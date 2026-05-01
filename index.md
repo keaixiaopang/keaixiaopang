@@ -78,7 +78,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 <div class="wrap">
   <div class="intro">
     <!-- 个人配图 自行替换文件名 -->
-    <img class="intro-img" src="kexiaopang.jpg" alt="个人配图">
+    <img class="intro-img" src="kexiaopang.png" alt="个人配图">
     <li>生活中是一位入职双非高校的青椒，定居三线城市期待甜甜的恋爱。</li>
     <li>网络中是多平台分享读博科研干货、职场奋斗心得和游戏娱乐内容的自媒体新兵蛋子。</li>
     <li>欢迎大家关注交流，但去莫复问，白云无尽时。</li>
