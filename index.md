@@ -89,14 +89,14 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
   </div>
 
   <!-- 新增板块标题 -->
-  <h2 class="platform-title">各平台运营情况及关注者数量</h2>
+  <h2 class="platform-title">各平台关注者数量及运营内容</h2>
 
   <div class="grid">
     <!-- 知乎：持续更新 -->
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>知乎</h3>
-      <div class="fans" style="color:#0f83fd">4800+ 人</div>
+      <div class="fans" style="color:#0f83fd">4800+</div>
       <ul class="card-desc">
         <li>科研工作共勉</li>
         <li>读研读博建议</li>
@@ -122,7 +122,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>今日头条</h3>
-      <div class="fans" style="color:#ff6700">4200+ 人</div>
+      <div class="fans" style="color:#ff6700">4200+</div>
       <ul class="card-desc">
         <li>青椒生活分享</li>
         <li>思考经验整理</li>
@@ -135,7 +135,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>小红书</h3>
-      <div class="fans" style="color:#ff2442">100+ 人</div>
+      <div class="fans" style="color:#ff2442">100+</div>
       <ul class="card-desc">
         <li>搞笑梗图分享</li>
         <li>科研生活碎片</li>
