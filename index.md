@@ -3,8 +3,8 @@ layout: null
 ---
 
 {% comment %} 个人介绍配置 {% endcomment %}
-{% assign intro_title = "👋 关于我" %}
-{% assign intro_desc = "专注无人系统、智能集群与几何优化研究，多平台分享技术干货与日常思考，欢迎各平台关注交流。" %}
+{% assign intro_title = "👋 关于我——可爱小胖" %}
+{% assign intro_desc = "专注多平台分享技术干货与日常思考，欢迎各平台关注交流。" %}
 
 {% comment %} 正经 Jekyll 原生数组，顺序：知乎 → 今日头条 → 小红书 {% endcomment %}
 {% assign platforms = site.emptyArray %}
