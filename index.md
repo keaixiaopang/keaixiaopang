@@ -11,7 +11,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 .intro p{color:#555;line-height:1.7;font-size:16px;}
 
 .intro-img {
-  width: 100%;
+  width: 50%;
   max-width: 400px;
   border-radius: 12px;
   margin: 20px auto 0;
@@ -125,7 +125,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
         <li>学术干货整理</li>
         <li>日常成长记录</li>
       </ul>
-      <a class="btn" href="[https://www.toutiao.com" target="_blank](https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?source=list&log_from=3bbae3561be52_1777613552810)" style="background:#ff6700">进入主页</a>
+      <a class="btn" href="https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?" style="background:#ff6700">进入主页</a>
     </div>
 
     <!-- 小红书：已停更 -->
