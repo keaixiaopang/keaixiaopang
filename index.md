@@ -76,10 +76,10 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 </style>
 
 <!-- 新增板块标题 -->
-<h2 class="platform-title">你好，我是可爱小胖</h2>
 
 <div class="wrap">
   <div class="intro">
+    <h2 class="platform-title">你好，我是可爱小胖</h2>
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
     <li>生活中是一位入职双非高校的青椒，定居三线城市期待甜甜的恋爱。</li>
