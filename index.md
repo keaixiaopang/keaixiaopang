@@ -78,8 +78,8 @@ hr, header, .header, .page-header {
 </style>
 
 {% comment %} 个人介绍配置 {% endcomment %}
-{% assign intro_title = "👋 关于我" %}
-{% assign intro_desc = "专注无人系统、智能集群与几何优化研究，多平台分享技术干货与日常思考，欢迎各平台关注交流。" %}
+{% assign intro_title = "👋 可爱小胖感谢您的关注" %}
+{% assign intro_desc = "本人在多个平台发布教育、职场和游戏文章和想法，经验，一起加油！" %}
 
 {% comment %} Jekyll 原生数组：知乎 → 今日头条 → 小红书 {% endcomment %}
 {% assign platforms = site.emptyArray %}
