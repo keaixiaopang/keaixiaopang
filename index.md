@@ -1,7 +1,10 @@
 ---
 layout: null
 ---
-
+<head>
+  <title>可爱小胖</title>
+  <link rel="icon" href="/calendar.webp">
+</head>
 <style>
 html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,sans-serif;}
 *{margin:0;padding:0;box-sizing:border-box;}
