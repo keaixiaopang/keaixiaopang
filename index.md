@@ -1,91 +1,70 @@
 ---
-layout: default
+layout: null
 ---
 
+{% comment %} 个人介绍配置 {% endcomment %}
+{% assign intro_title = "👋 关于我" %}
+{% assign intro_desc = "专注无人系统、智能集群与几何优化研究，多平台分享技术干货与日常思考，欢迎各平台关注交流。" %}
+
+{% comment %} 正经 Jekyll 原生数组，顺序：知乎 → 今日头条 → 小红书 {% endcomment %}
+{% assign platforms = site.emptyArray %}
+
+{% assign platforms = platforms | push:
+  {
+    name: "知乎",
+    fans: "4000+ 人",
+    link: "https://www.zhihu.com/people/ke-ai-xiao-pang-42",
+    color: "#0f83fd"
+  }
+%}
+
+{% assign platforms = platforms | push:
+  {
+    name: "今日头条",
+    fans: "0 人",
+    link: "https://www.toutiao.com",
+    color: "#ff6700"
+  }
+%}
+
+{% assign platforms = platforms | push:
+  {
+    name: "小红书",
+    fans: "0 人",
+    link: "https://www.xiaohongshu.com",
+    color: "#ff2442"
+  }
+%}
+
 <style>
-/* 彻底移除顶部头部、灰线、留白 */
-.site-header {
-  display: none !important;
-  border-bottom: none !important;
-}
-.page-content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  border-top: none !important;
-}
-body {
-  border-top: none !important;
-}
+html,body{margin:0;padding:0;background:#f5f6f8;font-family:system-ui,-apple-system,sans-serif;}
+.wrap{max-width:880px;margin:40px auto;padding:0 20px;}
+.intro-card{background:#fff;border-radius:18px;padding:32px;margin-bottom:30px;box-shadow:0 4px 14px rgba(0,0,0,0.05);}
+.intro-card h2{margin:0 0 12px;font-size:22px;color:#222;}
+.intro-card p{margin:0;color:#555;line-height:1.7;font-size:16px;}
 
-/* 页面布局样式 */
-.container { 
-  max-width: 860px; 
-  margin: 40px auto; 
-  padding: 0 20px; 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
-}
-.intro { 
-  background: #fff; 
-  border-radius: 16px; 
-  padding: 30px; 
-  margin-bottom: 35px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
-}
-.intro h2 { 
-  margin-top: 0; 
-  color: #222; 
-}
-.intro p { 
-  color: #555; 
-  line-height: 1.7; 
-  font-size: 16px; 
-}
-
-.grid { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); 
-  gap: 20px; 
-}
-.card { 
-  background: #fff; 
-  border-radius: 16px; 
-  padding: 28px; 
-  box-shadow: 0 4px 14px rgba(0,0,0,0.05); 
-}
-.card h3 { 
-  margin: 0; 
-  font-size: 19px; 
-  color: #222; 
-}
-.fans { 
-  font-size: 26px; 
-  font-weight: bold; 
-  margin: 10px 0 20px; 
-}
-.btn { 
-  display: block; 
-  padding: 11px 18px; 
-  border-radius: 10px; 
-  color: #fff; 
-  text-decoration: none; 
-  text-align: center; 
-  font-weight: 500; 
-}
+.platform-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;}
+.platform-card{background:#fff;border-radius:18px;padding:30px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,0.05);}
+.platform-card h3{margin:0 0 12px;font-size:20px;color:#222;}
+.fans-count{font-size:28px;font-weight:bold;margin:10px 0 22px;}
+.go-btn{display:inline-block;padding:10px 24px;border-radius:12px;color:#fff;text-decoration:none;font-weight:500;}
 </style>
 
-<div class="container">
-  <div class="intro">
-    <h2>{{ site.intro_title }}</h2>
-    <p>{{ site.intro_content }}</p>
+<div class="wrap">
+  <!-- 自我介绍模块 -->
+  <div class="intro-card">
+    <h2>{{ intro_title }}</h2>
+    <p>{{ intro_desc }}</p>
   </div>
 
-  <div class="grid">
-    {% for item in site.social_platforms %}
-    <div class="card">
+  <!-- Jekyll 原生循环渲染卡片 -->
+  <div class="platform-grid">
+  {% for item in platforms %}
+    <div class="platform-card">
       <h3>{{ item.name }}</h3>
-      <div class="fans" style="color: {{ item.color }};">{{ item.fans }} 人</div>
-      <a href="{{ item.url }}" target="_blank" class="btn" style="background: {{ item.color }};">前往主页</a>
+      <div class="fans-count" style="color:{{ item.color }}">{{ item.fans }}</div>
+      <a class="go-btn" href="{{ item.link }}" target="_blank" style="background:{{ item.color }}">进入主页</a>
     </div>
-    {% endfor %}
+  {% endfor %}
   </div>
 </div>
