@@ -128,7 +128,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
         <li>思考经验整理</li>
         <li>日常成长记录</li>
       </ul>
-      <a class="btn" href="https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?" style="background:#ff6700">进入主页</a>
+      <a class="btn" href="https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?"  target="_blank" style="background:#ff6700">进入主页</a>
     </div>
 
     <!-- 小红书：已停更 -->
