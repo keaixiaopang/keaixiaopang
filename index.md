@@ -11,7 +11,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 .intro p{color:#555;line-height:1.7;font-size:16px;}
 
 .intro-img {
-  width: 50%;
+  width: 30%;
   max-width: 400px;
   border-radius: 12px;
   margin: 20px auto 0;
