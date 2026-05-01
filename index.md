@@ -72,12 +72,17 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 .btn{display:inline-block;padding:10px 24px;border-radius:12px;color:#fff;text-decoration:none;font-weight:500;border:none;}
 </style>
 
+<!-- 新增板块标题 -->
+<h2 class="platform-title">你好，我是可爱小胖</h2>
+
 <div class="wrap">
   <div class="intro">
-    <h2>👋 关于我</h2>
-    <p>专注无人系统、智能集群与几何优化研究，多平台分享技术干货、科研心得与生活内容，欢迎大家在各平台关注交流。</p>
     <!-- 个人配图 自行替换文件名 -->
-    <img class="intro-img" src="avatar.jpg" alt="个人配图">
+    <img class="intro-img" src="kexiaopang.jpg" alt="个人配图">
+    <li>生活中是一位入职双非高校的青椒，定居三线城市期待甜甜的恋爱。</li>
+    <li>网络中是多平台分享读博科研干货、职场奋斗心得和游戏娱乐内容的自媒体新兵蛋子。</li>
+    <li>欢迎大家关注交流，但去莫复问，白云无尽时。</li>
+    
   </div>
 
   <!-- 新增板块标题 -->
