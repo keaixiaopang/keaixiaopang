@@ -93,7 +93,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>知乎</h3>
-      <div class="fans" style="color:#0f83fd">4000+ 人</div>
+      <div class="fans" style="color:#0f83fd">4800+ 人</div>
       <ul class="card-desc">
         <li>无人系统研究</li>
         <li>集群协同算法</li>
@@ -106,7 +106,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>Steam 鉴赏家</h3>
-      <div class="fans" style="color:#1b2838">100+</div>
+      <div class="fans" style="color:#1b2838">160+</div>
       <ul class="card-desc">
         <li>游戏测评推荐</li>
         <li>独立游戏品鉴</li>
@@ -119,7 +119,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card stop">
       <span class="status-tag update-no">已暂停更新</span>
       <h3>今日头条</h3>
-      <div class="fans" style="color:#ff6700">4000+ 人</div>
+      <div class="fans" style="color:#ff6700">4200+ 人</div>
       <ul class="card-desc">
         <li>科技领域解读</li>
         <li>学术干货整理</li>
