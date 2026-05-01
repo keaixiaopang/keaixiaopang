@@ -13,21 +13,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 抓取真实知乎粉丝数
+      - name: 抓取真实粉丝数
         run: |
-          ID="ke-ai-xiao-pang-42"
-          FANS=$(curl -sL "https://zhihu-proxy.deno.dev/people/$ID" | sed -n 's/.*"follower_count"\s*:\s*\([0-9]*\).*/\1/p')
+          FANS=$(curl -s "https://vx-api.vercel.app/zhihu/user/ke-ai-xiao-pang-42" | jq '.data.follower_count' 2>/dev/null)
           FANS=${FANS:-1}
-          echo "当前粉丝数: $FANS"
+          echo "粉丝数: $FANS"
           echo "{\"fans\":\"$FANS\"}" > zhihu-fans.json
 
       - name: 提交更新
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "Auto"
+          git config --global user.email "auto@github.com"
           git add zhihu-fans.json
-          git commit -m "Update zhihu fans" || true
+          git commit -m "Update fans" || true
           git push
