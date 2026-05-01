@@ -1,0 +1,33 @@
+name: 自动更新知乎粉丝数
+
+on:
+  push:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 安装依赖
+        run: sudo apt install -y curl jq
+
+      - name: 获取知乎粉丝数
+        run: |
+          ID="ke-ai-xiao-pang-42"
+          API="https://www.zhihu.com/api/v4/members/$ID?include=follower_count"
+          # 用中转抓取
+          DATA=$(curl -s "https://api.allorigins.win/raw?url=$API")
+          FANS=$(echo $DATA | jq -r .follower_count)
+          echo "{\"fans\":\"$FANS\"}" > zhihu-fans.json
+
+      - name: 提交更新
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com@users.noreply.github.com"
+          git add zhihu-fans.json
+          git commit -m "自动更新知乎粉丝数" || true
+          git push
