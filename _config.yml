@@ -18,3 +18,8 @@ social_platforms:
     fans: "0"
     url: "https://www.xiaohongshu.com/"
     color: "#ff2442"
+
+# 隐藏左上角站点大标题
+title: ""
+# 关闭主题默认头部标题栏
+header_pages: []
