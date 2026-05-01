@@ -16,17 +16,18 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 获取知乎粉丝数
+      - name: 抓取真实知乎粉丝数
         run: |
           ID="ke-ai-xiao-pang-42"
-          FANS=$(curl -s "https://zhihu-shadow.deno.dev/$ID" | grep -o '"follower_count":[0-9]*' | cut -d: -f2)
+          FANS=$(curl -sL "https://zhihu-proxy.deno.dev/people/$ID" | sed -n 's/.*"follower_count"\s*:\s*\([0-9]*\).*/\1/p')
           FANS=${FANS:-1}
+          echo "当前粉丝数: $FANS"
           echo "{\"fans\":\"$FANS\"}" > zhihu-fans.json
 
-      - name: 提交更新到仓库
+      - name: 提交更新
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add zhihu-fans.json
-          git commit -m "Auto update zhihu fans" || true
+          git commit -m "Update zhihu fans" || true
           git push
