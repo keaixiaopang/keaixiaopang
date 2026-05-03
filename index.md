@@ -1,5 +1,5 @@
 <head>
-  <meta name="baidu-site-verification" content="codeva-w29knISi2e" />
+  <meta name="baidu-site-verification" content="codeva-92na2s5nOX" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
   <title>可爱小胖</title>
   <link rel="icon" href="/calendar.webp">
