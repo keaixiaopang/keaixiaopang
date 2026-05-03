@@ -2,10 +2,10 @@
 layout: null
 ---
 <head>
-  <title>可爱小胖</title>
-  <link rel="icon" href="/calendar.webp">
   <meta name="baidu-site-verification" content="codeva-w29knISi2e" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
+  <title>可爱小胖</title>
+  <link rel="icon" href="/calendar.webp">
 </head>
 <style>
 html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,sans-serif;}
