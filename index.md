@@ -4,7 +4,7 @@ layout: null
 <head>
   <meta name="baidu-site-verification" content="codeva-92na2s5nOX" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
-  <title>可爱小胖</title>
+  <title>可爱小胖|机械博士&讲师日常</title>
   <link rel="icon" href="/calendar.webp">
 </head>
 <style>
@@ -84,8 +84,8 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <h2 class="platform-title">你好，我是可爱小胖</h2>
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
-    <li>生活中是一位入职双非高校的青椒，瑞幸咖啡常客，甜甜恋爱期待者。</li>
-    <li>网络中是多平台分享读博科研干货和游戏娱乐评测的自媒体新兵蛋子。</li>
+    <li>机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。</li>
+    <li>多平台分享读博科研干货和游戏娱乐评测的自媒体新兵蛋子。</li>
     <li>欢迎大家关注交流，但去莫复问，白云无尽时，一起加油。</li>
     
   </div>
