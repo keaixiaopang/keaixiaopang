@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <head>
   <meta name="baidu-site-verification" content="codeva-92na2s5nOX" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
