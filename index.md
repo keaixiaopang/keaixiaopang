@@ -85,7 +85,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
     <li>机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。</li>
-    <li>多平台分享读博科研干货和游戏娱乐评测的自媒体新兵蛋子。</li>
+    <li>多平台分享读博科研干货和讲师日常生活的自媒体新兵蛋子。</li>
     <li>欢迎大家关注交流，但去莫复问，白云无尽时，一起加油。</li>
     
   </div>
