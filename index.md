@@ -83,7 +83,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
 
 <div class="wrap">
   <div class="intro">
-    <h2 class="platform-title">你好，我是可爱小胖</h2>
+    <h1 class="platform-title">你好，我是可爱小胖</h1>
     <!-- 个人配图 自行替换文件名 -->
     <img class="intro-img" src="/keaixiaopang.png" alt="个人配图">
     <li>机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。</li>
