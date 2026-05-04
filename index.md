@@ -4,6 +4,8 @@ layout: null
 <head>
   <meta name="baidu-site-verification" content="codeva-92na2s5nOX" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
+  <meta name='description' content='可爱小胖丨读博经验与讲师日常分享。机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。多平台分享读博科研干货和讲师日常生活的自媒体新兵蛋子。欢迎大家关注交流，但去莫复问，白云无尽时，一起加油。'>
+  <meta http-equiv='content-language' content='zh-CN'
   <title>可爱小胖丨读博经验与讲师日常分享</title>
   <link rel="icon" href="/calendar.webp">
 </head>
