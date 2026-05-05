@@ -100,7 +100,7 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>知乎</h3>
-      <div class="fans" style="color:#0f83fd">4800+</div>
+      <div class="fans" style="color:#0f83fd">5000+</div>
       <ul class="card-desc">
         <li>科研学术共勉</li>
         <li>读研读博建议</li>
