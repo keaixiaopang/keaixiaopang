@@ -13,7 +13,6 @@
   <link rel="icon" href="/calendar.webp">
   
   <style>
-    /* 全局重置 */
     * {
       margin: 0;
       padding: 0;
@@ -33,14 +32,14 @@
       padding: 0 20px;
     }
 
-    /* ----- 个人介绍卡片 ----- */
+    /* 个人介绍卡片 */
     .intro {
       background: #ffffff;
       border-radius: 24px;
       padding: 40px 32px 32px;
       margin-bottom: 40px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
-      text-align: center; /* 让内部所有内联/块级内容居中 */
+      text-align: center;
     }
 
     .intro h1 {
@@ -51,35 +50,33 @@
       letter-spacing: 1px;
     }
 
-    /* 个人头像 */
     .intro-img {
       width: 30%;
       max-width: 180px;
-      border-radius: 50%;  /* 圆形头像更亲切 */
+      border-radius: 50%;
       display: block;
       margin: 0 auto 24px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.06);
       border: 2px solid #f0f0f0;
     }
 
-    /* ★★★ 核心修改：三句话居中列表 ★★★ */
+    /* ★★★ 三句话居中 ★★★ */
     .intro-list {
-      list-style: none;      /* 去掉小黑点 */
+      list-style: none;
       padding: 0;
       margin: 0 auto;
-      max-width: 600px;      /* 让文字不至于太宽，提升阅读舒适度 */
+      max-width: 600px;
     }
 
     .intro-list li {
-      text-align: center;    /* 文字水平居中 */
+      text-align: center;
       font-size: 16px;
       color: #444;
       line-height: 1.8;
       padding: 6px 0;
-      border-bottom: 1px dashed rgba(0, 0, 0, 0.04); /* 轻柔分隔线，让三句话有层次 */
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.04);
     }
 
-    /* 最后一句：去掉分隔线 + 诗意味道 */
     .intro-list li:last-child {
       border-bottom: none;
       color: #7a5a3e;
@@ -87,9 +84,7 @@
       margin-top: 4px;
     }
 
-    /* 如果想去掉所有分隔线，直接删掉上面的 border-bottom 即可 */
-
-    /* ----- 平台板块标题 ----- */
+    /* 平台标题 */
     .platform-title {
       text-align: center;
       font-size: 24px;
@@ -98,7 +93,7 @@
       font-weight: 600;
     }
 
-    /* ----- 平台卡片网格 ----- */
+    /* 卡片网格 */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -131,7 +126,6 @@
       margin: 8px 0 16px;
     }
 
-    /* 更新状态标签 */
     .status-tag {
       display: inline-block;
       font-size: 13px;
@@ -177,17 +171,14 @@
       transform: scale(0.97);
     }
 
-    /* 知乎按钮色 */
     .btn-zhihu {
       background: #0f83fd;
     }
 
-    /* Steam 按钮色 */
     .btn-steam {
       background: #1b2838;
     }
 
-    /* 响应式微调 */
     @media (max-width: 600px) {
       .wrap {
         margin: 20px auto;
@@ -210,14 +201,11 @@
 <body>
 
 <div class="wrap">
-  <!-- 个人介绍区域 -->
   <div class="intro">
     <h1>你好，我是可爱小胖</h1>
-    
-    <!-- 个人配图（请将图片放置于根目录，或修改 src 路径） -->
     <img class="intro-img" src="/keaixiaopang.png" alt="可爱小胖个人头像">
 
-    <!-- ★ 三句话完美居中展示 ★ -->
+    <!-- ★ 三句话完美居中 ★ -->
     <ul class="intro-list">
       <li>机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。</li>
       <li>多平台分享读博科研干货和讲师日常生活的自媒体新兵蛋子。</li>
@@ -225,11 +213,9 @@
     </ul>
   </div>
 
-  <!-- 各平台板块标题 -->
   <h2 class="platform-title">📊 各平台关注者数量及运营内容</h2>
 
   <div class="grid">
-    <!-- 知乎卡片 -->
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>知乎</h3>
@@ -242,7 +228,6 @@
       <a class="btn btn-zhihu" href="https://www.zhihu.com/people/ke-ai-xiao-pang-42" target="_blank">进入主页</a>
     </div>
 
-    <!-- Steam 鉴赏家卡片 -->
     <div class="card">
       <span class="status-tag update-yes">持续更新</span>
       <h3>Steam 鉴赏家</h3>
