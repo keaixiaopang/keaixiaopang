@@ -22,18 +22,5 @@
 - **运营内容**: 游戏测评评鉴、骨折游戏推荐、游玩心得分享
 
 
----
 
-## 🔴 已暂停更新
-
-### 今日头条
-- 🔗 [进入主页](https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?)
-- **现有关注者**: 4200+
-- **运营内容**: 青椒生活分享、思考经验整理、日常成长记录
-
-
-### 小红书
-- 🔗 [进入主页](https://www.xiaohongshu.com/user/profile/63fed6c5000000002901209d)
-- **现有关注者**: 100+
-- **运营内容**: 搞笑梗图分享、科研生活碎片、学习日常打卡
 
