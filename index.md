@@ -121,31 +121,5 @@ html,body{margin:0;padding:0;border:0;background:#f5f6f8;font-family:system-ui,s
       </ul>
       <a class="btn" href="https://steamcommunity.com/groups/keaixiaopang/curation" target="_blank" style="background:#1b2838">进入主页</a>
     </div>
-
-    <!-- 今日头条：已停更 -->
-    <div class="card stop">
-      <span class="status-tag update-no">已暂停更新</span>
-      <h3>今日头条</h3>
-      <div class="fans" style="color:#ff6700">4200+</div>
-      <ul class="card-desc">
-        <li>青椒生活分享</li>
-        <li>思考经验整理</li>
-        <li>日常成长记录</li>
-      </ul>
-      <a class="btn" href="https://www.toutiao.com/c/user/token/Cisi929iLM2m0LHy5vneUoBMA3NMntR7iunTUK5k03Oi0qvAIxAU8pP-Jv_XGkkKPAAAAAAAAAAAAABQXiq7U5MIgX4Av2-yOMJDn9x_awi_tMOlmMPx3m58DT3H5aPymcDFkknB803VdKBzzxC1o5AOGMPFg-oEIgEDzYKnMA==/?"  target="_blank" style="background:#ff6700">进入主页</a>
-    </div>
-
-    <!-- 小红书：已停更 -->
-    <div class="card stop">
-      <span class="status-tag update-no">已暂停更新</span>
-      <h3>小红书</h3>
-      <div class="fans" style="color:#ff2442">100+</div>
-      <ul class="card-desc">
-        <li>搞笑梗图分享</li>
-        <li>科研生活碎片</li>
-        <li>学习日常打卡</li>
-      </ul>
-      <a class="btn" href="https://www.xiaohongshu.com/user/profile/63fed6c5000000002901209d" target="_blank" style="background:#ff2442">进入主页</a>
-    </div>
   </div>
 </div>
