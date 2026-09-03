@@ -3,209 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- SEO & 验证 -->
   <meta name="baidu-site-verification" content="codeva-92na2s5nOX" />
   <meta name="msvalidate.01" content="7DBB70AE4DFB4F1A76794977316FBB94" />
   <meta name='description' content='可爱小胖丨读博经验与讲师日常分享。机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。多平台分享读博科研干货和讲师日常生活的自媒体新兵蛋子。欢迎大家关注交流，但去莫复问，白云无尽时，一起加油。'>
   <meta http-equiv='content-language' content='zh-CN'>
   <title>可爱小胖丨读博经验与讲师日常分享</title>
   <link rel="icon" href="/calendar.webp">
-  
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html, body {
-      background: #f5f6f8;
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    .wrap {
-      max-width: 880px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { background: #f5f6f8; font-family: system-ui, sans-serif; color: #222; }
+    .wrap { max-width: 880px; margin: 40px auto; padding: 0 20px; }
+    
     /* 个人介绍卡片 */
-    .intro {
-      background: #ffffff;
-      border-radius: 24px;
-      padding: 40px 32px 32px;
-      margin-bottom: 40px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
-      text-align: center;
-    }
-
-    .intro h1 {
-      font-size: 26px;
-      font-weight: 600;
-      color: #1a1a1a;
-      margin-bottom: 16px;
-      letter-spacing: 1px;
-    }
-
-    .intro-img {
-      width: 30%;
-      max-width: 180px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto 24px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-      border: 2px solid #f0f0f0;
-    }
-
-    /* ★★★ 三句话居中 ★★★ */
-    .intro-list {
-      list-style: none;
-      padding: 0;
-      margin: 0 auto;
-      max-width: 600px;
-    }
-
-    .intro-list li {
-      text-align: center;
-      font-size: 16px;
-      color: #444;
-      line-height: 1.8;
-      padding: 6px 0;
-      border-bottom: 1px dashed rgba(0, 0, 0, 0.04);
-    }
-
-    .intro-list li:last-child {
-      border-bottom: none;
-      color: #7a5a3e;
-      font-style: italic;
-      margin-top: 4px;
-    }
-
-    /* 平台标题 */
-    .platform-title {
-      text-align: center;
-      font-size: 24px;
-      color: #1a1a1a;
-      margin: 10px 0 30px;
-      font-weight: 600;
-    }
-
-    /* 卡片网格 */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 20px;
-      padding: 32px 24px;
-      text-align: center;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
-    }
-
-    .card h3 {
-      font-size: 22px;
-      margin-bottom: 4px;
-      color: #1a1a1a;
-    }
-
-    .fans {
-      font-size: 32px;
-      font-weight: 700;
-      margin: 8px 0 16px;
-    }
-
-    .status-tag {
-      display: inline-block;
-      font-size: 13px;
-      padding: 3px 14px;
-      border-radius: 30px;
-      margin-bottom: 14px;
-      font-weight: 500;
-    }
-
-    .update-yes {
-      background: #e6f7ef;
-      color: #1e8b4c;
-    }
-
-    .card-desc {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 22px;
-      color: #666;
-      font-size: 15px;
-      line-height: 1.7;
-    }
-
-    .card-desc li {
-      margin: 2px 0;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 28px;
-      border-radius: 40px;
-      color: #fff;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 15px;
-      transition: opacity 0.2s, transform 0.1s;
-      border: none;
-      cursor: pointer;
-    }
-
-    .btn:hover {
-      opacity: 0.85;
-      transform: scale(0.97);
-    }
-
-    .btn-zhihu {
-      background: #0f83fd;
-    }
-
-    .btn-steam {
-      background: #1b2838;
-    }
-
-    @media (max-width: 600px) {
-      .wrap {
-        margin: 20px auto;
-      }
-      .intro {
-        padding: 28px 18px;
-      }
-      .intro h1 {
-        font-size: 22px;
-      }
-      .intro-img {
-        width: 40%;
-      }
-      .intro-list li {
-        font-size: 15px;
-      }
-    }
+    .intro { background: #fff; border-radius: 24px; padding: 40px 32px; margin-bottom: 40px; text-align: center; box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
+    .intro h1 { font-size: 26px; font-weight: 600; margin-bottom: 16px; }
+    .intro-img { width: 30%; max-width: 180px; border-radius: 50%; display: block; margin: 0 auto 24px; border: 2px solid #f0f0f0; }
+    
+    /* ★ 三句话居中（已彻底修复） */
+    .intro-list { list-style: none; padding: 0; margin: 0 auto; max-width: 600px; }
+    .intro-list li { text-align: center; font-size: 16px; color: #444; line-height: 1.8; padding: 6px 0; border-bottom: 1px dashed rgba(0,0,0,0.04); }
+    .intro-list li:last-child { border-bottom: none; color: #7a5a3e; font-style: italic; }
+    
+    .platform-title { text-align: center; font-size: 24px; margin: 10px 0 30px; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+    .card { background: #fff; border-radius: 20px; padding: 32px 24px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.04); transition: 0.2s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,0.07); }
+    .card h3 { font-size: 22px; margin-bottom: 4px; }
+    .fans { font-size: 32px; font-weight: 700; margin: 8px 0 16px; }
+    .status-tag { display: inline-block; font-size: 13px; padding: 3px 14px; border-radius: 30px; margin-bottom: 14px; background: #e6f7ef; color: #1e8b4c; }
+    .card-desc { list-style: none; padding: 0; margin: 0 0 22px; color: #666; font-size: 15px; line-height: 1.7; }
+    .btn { display: inline-block; padding: 10px 28px; border-radius: 40px; color: #fff; text-decoration: none; font-weight: 500; transition: 0.2s; }
+    .btn:hover { opacity: 0.85; transform: scale(0.97); }
+    .btn-zhihu { background: #0f83fd; }
+    .btn-steam { background: #1b2838; }
+    @media (max-width: 600px) { .intro { padding: 28px 18px; } .intro-img { width: 40%; } }
   </style>
 </head>
 <body>
-
 <div class="wrap">
   <div class="intro">
     <h1>你好，我是可爱小胖</h1>
-    <img class="intro-img" src="/keaixiaopang.png" alt="可爱小胖个人头像">
-
-    <!-- ★ 三句话完美居中 ★ -->
+    <!-- 图片路径请根据实际位置调整，如果图片在根目录就写 /keaixiaopang.png -->
+    <img class="intro-img" src="/keaixiaopang.png" alt="可爱小胖头像">
+    
+    <!-- ★ 三句话完美居中展示 ★ -->
     <ul class="intro-list">
       <li>机械工程博士，高校讲师，瑞幸咖啡常客，甜甜恋爱期待者。</li>
       <li>多平台分享读博科研干货和讲师日常生活的自媒体新兵蛋子。</li>
@@ -214,10 +55,9 @@
   </div>
 
   <h2 class="platform-title">📊 各平台关注者数量及运营内容</h2>
-
   <div class="grid">
     <div class="card">
-      <span class="status-tag update-yes">持续更新</span>
+      <span class="status-tag">持续更新</span>
       <h3>知乎</h3>
       <div class="fans" style="color:#0f83fd">5000+</div>
       <ul class="card-desc">
@@ -227,9 +67,8 @@
       </ul>
       <a class="btn btn-zhihu" href="https://www.zhihu.com/people/ke-ai-xiao-pang-42" target="_blank">进入主页</a>
     </div>
-
     <div class="card">
-      <span class="status-tag update-yes">持续更新</span>
+      <span class="status-tag">持续更新</span>
       <h3>Steam 鉴赏家</h3>
       <div class="fans" style="color:#1b2838">160+</div>
       <ul class="card-desc">
@@ -241,6 +80,5 @@
     </div>
   </div>
 </div>
-
 </body>
 </html>
