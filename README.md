@@ -13,12 +13,12 @@
 
 ### 知乎
 - 🔗 [进入主页](https://www.zhihu.com/people/ke-ai-xiao-pang-42)  
-- **现有关注者**: 5400+  
+- **现有关注者**: 6000+  
 - **运营内容**: 科研学术共勉、读研读博建议、日常生活分享
 
 ### Steam 鉴赏家
 - 🔗 [进入主页](https://steamcommunity.com/groups/keaixiaopang/curation)
-- **现有关注者**: 160+  
+- **现有关注者**: 100+  
 - **运营内容**: 游戏测评评鉴、骨折游戏推荐、游玩心得分享
 
 
